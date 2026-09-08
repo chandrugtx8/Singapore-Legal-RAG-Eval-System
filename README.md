@@ -78,10 +78,8 @@ This means the displayed verdict is derived from the final overall score after s
 ## Project Files
 
 - `app.py`: main Streamlit application
-- `evaluation_results_cohere.json`: evaluation results for advanced pipelines
-- `legal_rag_naive_results.json`: evaluation results for naive pipelines
-- `llm_judge_results/`: judge outputs for advanced pipelines
-- `llm_judge_results_naive/`: judge outputs for naive pipelines
+- `fixed_evaluation_results_all_pipelines.json`: combined evaluation results across all pipelines
+- `llm_judge_results_fixed/`: LLM-judge outputs for the six evaluated pipelines
 - `llm_judge_evaluation.py`: script for running LLM-as-a-judge evaluation
 - `requirements.txt`: Python dependencies
 
